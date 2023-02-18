@@ -17,8 +17,8 @@ body {
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 1.1;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 a {
@@ -44,6 +44,19 @@ button {
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+span {
+  font-family: 'Prata', serif;
+}
+
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -53,3 +66,10 @@ button {
 .main {
   flex-grow: 1;
 }
+
+.ff-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+// reset
+@import "vendor/normalize.scss";
