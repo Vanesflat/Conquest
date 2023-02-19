@@ -1,0 +1,27 @@
+.header {
+  padding: 35px 0 26px;
+  font-size: 14px;
+  color: #555248;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  &__logo {
+    transition: transform .3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__menu {
+    justify-self: center;
+  }
+
+  &__tools {
+    justify-self: end;
+  }
+}

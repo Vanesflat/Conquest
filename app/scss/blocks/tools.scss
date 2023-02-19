@@ -1,0 +1,40 @@
+.tools {
+  display: flex;
+  gap: 23px;
+
+  &__btn {
+    position: relative;
+
+    span {
+      display: none;
+    }
+
+    &--active {
+      span {
+        position: absolute;
+        top: -4px;
+        right: -6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13px;
+        height: 13px;
+        font-family: inherit;
+        font-size: 8px;
+        background-color: #E6C8B4;
+        border-radius: 50%;
+      }
+    }
+
+    svg path {
+      transition: all .3s ease;
+    }
+
+    &:hover {
+      svg path {
+        fill: $brown;
+        stroke: $brown;
+      }
+    }
+  }
+}
