@@ -1,0 +1,15 @@
+.menu {
+
+  &__list {
+    display: flex;
+    gap: 65px;
+  }
+
+  &__link {
+    transition: all .3s ease;
+
+    &:hover {
+      color: $brown;
+    }
+  }
+}
