@@ -85,6 +85,10 @@ span {
   font-family: 'Playfair Display', serif;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 // reset
 @import "vendor/normalize.scss";
 
