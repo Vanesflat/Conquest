@@ -1,0 +1,25 @@
+.follow {
+  padding: 81px 0 90px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    max-width: 376px;
+    margin-bottom: 119px;
+    line-height: 1.7;
+
+    span {
+      font-family: inherit;
+      font-weight: 700;
+      color: #262421;
+    }
+  }
+}

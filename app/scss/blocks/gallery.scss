@@ -1,0 +1,21 @@
+.gallery {
+  display: grid;
+  grid-template-columns: 242px 377px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "small-1 big"
+    "small-2 big";
+  gap: 10px;
+
+  &__img:first-child {
+    grid-area: small-1;
+  }
+
+  &__img:nth-child(2) {
+    grid-area: small-2;
+  }
+
+  &__img:last-child {
+    grid-area: big;
+  }
+}
