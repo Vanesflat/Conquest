@@ -1,0 +1,19 @@
+.social {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  &__item {
+    svg path {
+      transition: all .3s ease-in-out;
+    }
+
+    &:hover {
+      svg path {
+        fill: $brown;
+      }
+    }
+  }
+}
