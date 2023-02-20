@@ -1,0 +1,27 @@
+.decor-line {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -65px;
+    width: 50px;
+    height: 1px;
+    background-color: #8B8371;
+  }
+
+  &--small {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: -48px;
+      width: 30px;
+      height: 1px;
+      background-color: #8B8371;
+    }
+  }
+}

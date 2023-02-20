@@ -28,7 +28,8 @@ a {
 }
 
 ul,
-ol {
+ol,
+p {
   margin: 0;
   padding: 0;
 }
@@ -94,6 +95,10 @@ span {
 
 //blocks
 @import "blocks/header.scss";
+@import "blocks/promo.scss";
 
 @import "blocks/menu.scss";
 @import "blocks/tools.scss";
+@import "blocks/price.scss";
+@import "blocks/decor-line.scss";
+@import "blocks/btn.scss";
