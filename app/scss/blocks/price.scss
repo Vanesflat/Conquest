@@ -1,14 +1,28 @@
 .price {
   position: relative;
-  line-height: 1;
+  font-size: 12px;
 
   &::after {
     content: '';
     position: absolute;
-    top: 3px;
-    right: -20px;
-    width: 9.6px;
-    height: 13px;
-    background: url(../images/ruble.svg) no-repeat;
+    top: 2px;
+    right: -16px;
+    width: 7.14px;
+    height: 10px;
+    background: url(../images/ruble-small.svg) no-repeat;
+  }
+
+  &--big {
+    font-size: 16px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 3px;
+      right: -20px;
+      width: 9.6px;
+      height: 13px;
+      background: url(../images/ruble.svg) no-repeat;
+    }
   }
 }
