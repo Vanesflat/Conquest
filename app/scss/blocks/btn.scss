@@ -1,0 +1,29 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 205px;
+  padding: 27px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: $white;
+  transition: all .3s ease-in-out;
+
+  &--dark {
+    background-color: $dark;
+
+    &:hover {
+      background-color: lighten($color: $dark, $amount: 8);
+    }
+  }
+
+  &--brown {
+    background-color: $brown;
+
+    &:hover {
+      background-color: darken($color: $brown, $amount: 8);
+    }
+  }
+}

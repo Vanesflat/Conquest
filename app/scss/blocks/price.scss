@@ -1,0 +1,14 @@
+.price {
+  position: relative;
+  line-height: 1;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    right: -20px;
+    width: 9.6px;
+    height: 13px;
+    background: url(../images/ruble.svg) no-repeat;
+  }
+}

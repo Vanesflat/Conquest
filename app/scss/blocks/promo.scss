@@ -1,0 +1,66 @@
+.promo {
+  position: relative;
+  color: $black;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    z-index: -1;
+    width: 496px;
+    height: 944px;
+    background: url(../images/promo/ellipse.png) no-repeat;
+    transform: translateX(-50%);
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    font-size: 45px;
+  }
+
+  &__subtitle {
+    margin-bottom: 39px;
+    font-size: 30px;
+  }
+
+  &__text {
+    max-width: 250px;
+    margin-bottom: 64px;
+    font-size: 14px;
+    font-weight: 300;
+    color: $light-black;
+  }
+
+  &__product {
+    position: relative;
+  }
+
+  &__description {
+    position: absolute;
+    top: 636px;
+    right: -80px;
+  }
+}
+
+.promo__price {
+  position: absolute;
+  top: 138px;
+  left: -79px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -82px;
+    width: 50px;
+    height: 1px;
+    background-color: #8B8371;
+  }
+}
