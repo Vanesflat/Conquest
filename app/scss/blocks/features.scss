@@ -1,0 +1,48 @@
+.features {
+  position: relative;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 52px 0;
+  overflow: hidden;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+
+  &__inner {
+    max-width: 375px;
+  }
+
+  &__title {
+    margin-bottom: 38px;
+  }
+
+  &__text {
+    margin-bottom: 45px;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    border: 1px solid #D4B098;
+    border-radius: 50%;
+  }
+
+  &::before {
+    top: -130px;
+    right: -180px;
+    width: 365px;
+    height: 365px;
+  }
+
+  &::after {
+    bottom: -200px;
+    right: -550px;
+    width: 744px;
+    height: 744px;
+  }
+}
