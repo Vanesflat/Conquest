@@ -1,11 +1,14 @@
 .gallery {
   display: grid;
-  grid-template-columns: 242px 377px;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 0.7fr 1.1fr;
   grid-template-areas:
     "small-1 big"
     "small-2 big";
   gap: 10px;
+
+  &__img {
+    height: 100%;
+  }
 
   &__img:first-child {
     grid-area: small-1;
