@@ -20,6 +20,10 @@
     align-items: center;
   }
 
+  &__inner {
+    min-width: 300px;
+  }
+
   &__title {
     margin-bottom: 16px;
     font-size: 45px;
