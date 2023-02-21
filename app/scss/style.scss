@@ -85,10 +85,14 @@ span {
   display: none;
 }
 
+.overflow {
+  overflow-y: hidden;
+}
+
 // reset
 @import "vendor/normalize.scss";
 
-//blocks
+//sections
 @import "blocks/header.scss";
 @import "blocks/promo.scss";
 @import "blocks/popular.scss";
@@ -96,6 +100,7 @@ span {
 @import "blocks/follow.scss";
 @import "blocks/footer.scss";
 
+//blocks
 @import "blocks/menu.scss";
 @import "blocks/tools.scss";
 @import "blocks/price.scss";
@@ -105,3 +110,7 @@ span {
 @import "blocks/slider.scss";
 @import "blocks/social.scss";
 @import "blocks/gallery.scss";
+@import "blocks/burger.scss";
+
+//media
+@import "media.scss";
