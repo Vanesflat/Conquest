@@ -5,6 +5,12 @@
     gap: 65px;
   }
 
+  &__item {
+    &--mobile {
+      display: none;
+    }
+  }
+
   &__link {
     transition: all .3s ease;
 
